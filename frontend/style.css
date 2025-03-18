@@ -1,0 +1,36 @@
+/* Custom styles for the URL Shortener */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #333;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+/* Custom styles for the title */
+.display-4 {
+    font-size: 3.5rem;
+    color: #007bff;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #007bff, #00ff88); /* Gradient background */
+    -webkit-background-clip: text; /* Clip text to background */
+    -webkit-text-fill-color: transparent; /* Make text transparent */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
